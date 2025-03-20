@@ -38,9 +38,23 @@
 ---
 
 ## 📊 GitHub Stats  
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=haider-9&show_icons=true&theme=radical" height="150" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=haider-9&theme=radical" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=haider-9&show_icons=true&theme=tokyonight" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=haider-9&layout=compact&theme=tokyonight" height="150" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=haider-9&theme=github_dark" height="150" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=haider-9&theme=tokyonight" height="150" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=haider-9&theme=darkhub&column=4" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=haider-9&theme=tokyo-night" />
 </p>
 
 ---
