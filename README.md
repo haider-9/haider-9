@@ -1,7 +1,9 @@
-Haider Ahmad
+# Haider Ahmad
+
 <p align="center">
   Computer Science Student · Full-Stack Developer
 </p>
+
 <p align="center">
   <a href="mailto:haiderahmad352@gmail.com">
     <img src="https://img.shields.io/badge/Email-181818?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
@@ -16,26 +18,28 @@ Haider Ahmad
     <img src="https://img.shields.io/badge/LinkedIn-181818?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
 </p>
+
 ---
-About
+
+## About
+
 I am a Computer Science student interested in building practical web and software projects.
 My work mainly focuses on full-stack development, clean interfaces, backend systems, and API integrations.
+
 ---
-Tech Stack
-Frontend
+
+## Tech Stack
+
+**Frontend**
 React · Next.js · Tailwind CSS
-Backend
+
+**Backend**
 Node.js · Express · MongoDB
-Languages
+
+**Languages**
 Python · C++ · Java · C# · JavaScript
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,mongodb,python,cpp,java,cs,js" alt="Tech Stack Icons">
 </p>
----
-Contact
-You can reach me through email or view my work through my portfolio.
-<p align="center">
-  <a href="mailto:haiderahmad352@gmail.com">Email</a> ·
-  <a href="https://haiderahmad.vercel.app">Portfolio</a> ·
-  <a href="https://github.com/haider-9">GitHub</a>
-</p>
+
