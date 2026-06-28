@@ -11,9 +11,6 @@
   <a href="https://haiderahmad.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-181818?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio">
   </a>
-  <a href="https://github.com/haider-9">
-    <img src="https://img.shields.io/badge/GitHub-181818?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
   <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME">
     <img src="https://img.shields.io/badge/LinkedIn-181818?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
