@@ -16,6 +16,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://githubusercontent.com" alt="Activity Koi Fish" width="250">
+</p>
+
 ---
 
 ## About
@@ -39,4 +43,3 @@ Python · C++ · Java · C# · JavaScript
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,mongodb,python,cpp,java,cs,js" alt="Tech Stack Icons">
 </p>
-
