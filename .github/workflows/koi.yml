@@ -1,51 +1,39 @@
 
-name: Update Koi and GitHub Stats
+name: Koi
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "20 0 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/koi.yml
 
 permissions:
   contents: write
 
+concurrency: koi
+
 jobs:
-  update-profile:
+  koi:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout profile repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - name: Generate Koi
-        uses: yalongwastaken/git-koi@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate GitHub Statistics
-        uses: stats-organization/github-readme-stats-action@v2
+      - uses: yalongwastaken/git-koi@v1
         with:
-          card: stats
-          options: username=haider-9&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&title_color=ff6b35
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          body: white
+          output-dir: koi
 
-      - name: Generate Top Languages
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=haider-9&layout=compact&langs_count=8&theme=transparent&hide_border=true&title_color=ff6b35
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit generated statistics
+      - name: Commit the koi if it changed
+        shell: bash
         run: |
+          git add koi/koi.gif
+          if git diff --cached --quiet; then
+            echo "The koi is unchanged; nothing to commit."
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add profile/*.svg
-
-          git diff --cached --quiet || {
-            git commit -m "chore: update GitHub statistics"
-            git push
-          }
+          git commit --quiet --message "koi: draw the day's koi"
+          git push --quiet
